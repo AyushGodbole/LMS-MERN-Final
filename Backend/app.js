@@ -34,9 +34,9 @@ app.use(cors({
     credentials:true,
 }))
 
-app.get("/",(req,res) => {
-    res.json("Hello");
-});
+// app.get("/",(req,res) => {
+//     res.json("Hello");
+// });
 
 // it will console what urls different users are trying to access.
 app.use(morgan('dev'));
