@@ -36,7 +36,7 @@ function SearchField(){
     }
 
     return(
-        <div className=" absolute top-5 right-0 flex gap-2 items-center">
+        <div className=" absolute top-5 right-3 flex gap-2 items-center">
             <FaSearch 
              className=" text-green-500 absolute left-4"
             />
